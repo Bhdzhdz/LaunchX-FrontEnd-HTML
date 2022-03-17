@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Orders | PLACEHOLDER_CAKE_SHOP_NAME</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="font" href="https://fonts.googleapis.com/css?family=Roboto">
+    </head>
+
+    <body>
+        
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="orders.html">Orders</a>
+        </div>
+
+        <!-- Form for user to enter their order -->
+
+        <!-- Dropdown menu for user to select their base cake -->
+
+        <div class="order-container">
+            <div class="order-title">
+                <h1>Order</h1>
+            </div>
+            <div class="order-form">
+                <form>
+                    <div class="order-form-item">
+                        <label for="base-cake">Base cake</label>
+                        <select name="base-cake" id="base-cake">
+                            <option value="cake1">Cake 1</option>
+                            <option value="cake2">Cake 2</option>
+                            <option value="cake3">Cake 3</option>
+                            <option value="cake4">Cake 4</option>
+                            <option value="cake5">Cake 5</option>
+                            <option value="cake6">Cake 6</option>
+                        </select>
+                    </div>
+                    <div class="order-form-item">
+                        <label for="topping">Topping</label>
+                        <select name="topping" id="topping">
+                            <option value="none">None</option>
+                            <option value="topping1">Topping 1</option>
+                            <option value="topping2">Topping 2</option>
+                            <option value="topping3">Topping 3</option>
+                            <option value="topping4">Topping 4</option>
+                        </select>   
+                    </div>
+                    <div class="order-form-item">
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+
+                    <div class="order-form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="order-form-item">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+
+                    <div class="order-form-item">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+
+                    <div class="order-form-item">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+
+                    <div class="order-form-item">
+                        <button type="submit" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
